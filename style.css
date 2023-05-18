@@ -75,7 +75,7 @@
     text-align: center;
 }
 .products{
-    display: grid;
+                    display: grid;
     grid-template-columns: repeat(3,1fr);
     position: relative;
     margin-left: 10%;
