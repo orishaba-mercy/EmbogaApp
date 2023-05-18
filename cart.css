@@ -1,0 +1,40 @@
+.fruit1{
+    width:60%;
+    height:50%;
+  }
+  .cart{
+    display: flex;
+    gap: 2%;
+  }
+  .fruit2{
+    width:60%;
+    height:50%;
+  }
+  .fruit3{
+    width:40%;
+    height:30%;
+  }
+  .bat1{
+    background-color: orangered;
+    text-decoration: solid;
+    color: white;
+    padding:2%;
+    border: solid;
+  
+  
+  }
+  
+  .bat2{
+    background-color:green;
+    text-decoration: solid;
+    color: white;
+    padding: 2%;
+  }
+  .add1{
+    border: solid;
+    color: #4cae4c;
+    background-color: #d6d2d2;
+    padding: 2%;
+  
+  }
+  
