@@ -6,6 +6,9 @@
     display: grid;
     grid-template-columns: repeat(11,1fr);
     margin-top: 30px;
+    background-color: #172e17;
+    color: white;
+    font-size: 20px;
 }
 .nav img{
     width: 50%;
@@ -14,8 +17,8 @@
     text-decoration: none;
     color: black;
     display: flex;
-    /* grid-template-columns: repeat(11,1fr); */
-    /* margin-top: 30px; */
+    color: aliceblue;
+    
 }
 .nav button{
     color: rgb(8, 1, 1);
@@ -177,3 +180,59 @@
 .button:hover{
     background-color: #7ddb31;
 }    
+
+@media screen and (max-width: 768px) {
+    .nav img {
+        width: 100%;
+    }
+
+    .nav {
+        font-size: 16px;
+    }
+
+    .hea {
+        padding-left: 40%;
+    }
+
+    .categ {
+        padding-left: 35%;
+    }
+
+    .wate img,
+    .spin img,
+    .kale img,
+    .cauli img,
+    .avo img,
+    .pear img,
+    .melon img,
+    .cherry img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        font-size: 14px;
+    }
+
+    .hea {
+        padding-left: 30%;
+    }
+
+    .categ {
+        padding-left: 25%;
+    }
+
+    .wate img,
+    .spin img,
+    .kale img,
+    .cauli img,
+    .avo img,
+    .pear img,
+    .melon img,
+    .cherry img {
+        height: 100px;
+        width: 100px;
+    }
+}

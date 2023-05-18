@@ -1,18 +1,153 @@
-.container{
-    /* background-color: rgb(221, 247, 247); */
-    /* background-image: url(images/kkkk.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    padding-top: 1%; */
+    
+    .start {
+        background-image: url(images/kkkk.jpeg); 
+        background-attachment: fixed;  
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        padding-top: 1%;
+    } 
+    
+    .nav {
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+        margin-top: 30px;
+        /* background-color: chartreuse; */
+        padding: 2%;
+    }
+    
+    .nav img {
+        width: 50%;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        grid-template-columns: repeat(11, 1fr);
+        font-size: 19px;
+        /* margin-top: 30px; */
+    }
+    
+    .nav button {
+        color: rgb(8, 1, 1);
+        background-color: rgb(205, 231, 204);
+        width: 60%;
+        height: 5vh;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .work {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* background-color: aquamarine; */
+    }
+    
+    .work img {
+        border-radius: 20%;
+        border-color: solid green;
+        width: 70%;
+        height: 40vh;
+    }
+    
+    .btn {
+        color: rgb(22, 2, 2);
+        background-color: rgb(63, 223, 57);
+        width: 30%;
+        height: 10vh;
+        border-radius: 10px;
+        border: none;  
+        margin-left: 140%;
+    }
+    
+    .btn:hover {
+        background-color: aliceblue;
+    }
+    
+    .but {
+        margin-left: 100%;
+    }
+    
+    #popu {
+        margin-top: 5%;
+        text-align: center;
+    }
+    
+    .products {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        position: relative;
+        margin-left: 10%;
+    }
+    
+    .icon {
+        width: 10%;
+        height: 5vh;
+    }
+    
+    .products img {
+        border-radius: 10%;
+        width: 70%;
+        height: 50%;
+    }
+    
+    .products button {
+        color: rgb(22, 2, 2);
+        background-color: rgb(63, 223, 57);
+        width: 20%;
+        height: 5vh;
+        border-radius: 10px;
+        border: none;  
+    }
+    
+    .products button:hover {
+        background-color: aliceblue;
+    }
+    
+    .comments {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    .comments img {
+        width: 50%;
+        height: 20vh;
+        border-radius: 100px;
+    }
+    
+    #clients {
+        text-align: center;
+    }
+    
+    .subscribe {
+        text-align: center;
+        background-color: rgb(155, 228, 110);
+        color: black;
+    }
+    
+    .subscribe button {
+        width: 70%;
+        background-color: rgb(36, 133, 36);
+        color: aliceblue;
+        width: 30%;
+        height: 7vh;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: aliceblue;
+    }
+    
+    .icon {
+        color: rgb(4, 15, 3);
+    
+    
 }
-.start{
-    background-image: url(images/kkkk.jpeg); 
-    background-attachment: fixed;  
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    padding-top: 1%;
 
-} 
+ 
 .nav{
     display: grid;
     grid-template-columns: repeat(11,1fr);
@@ -116,13 +251,13 @@
 }
 .subscribe{
     text-align: center;
-    background-color: rgb(102, 255, 0);
+    background-color: rgb(155, 228, 110);
     color: black;
   
 }
 .subscribe button{
     width: 70%;
-    background-color: rgb(36, 43, 133);
+    background-color: rgb(36, 133, 36);
     color: aliceblue;
     width: 30%;
     height: 7vh;
@@ -163,4 +298,215 @@
     padding-top: 8%;
     
 } 
+/* 
+ */
 
+
+ @media 
+
+.start {
+    background-image: url(images/kkkk.jpeg); 
+    background-attachment: fixed;  
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding-top: 1%;
+} 
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    margin-top: 30px;
+    /* background-color: chartreuse; */
+    padding: 2%;
+}
+
+.nav img {
+    width: 50%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    grid-template-columns: repeat(11, 1fr);
+    font-size: 19px;
+    /* margin-top: 30px; */
+}
+
+.nav button {
+    color: rgb(8, 1, 1);
+    background-color: rgb(205, 231, 204);
+    width: 60%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: aquamarine; */
+}
+
+.work img {
+    border-radius: 20%;
+    border-color: solid green;
+    width: 70%;
+    height: 40vh;
+}
+
+.btn {
+    color: rgb(22, 2, 2);
+    background-color: rgb(63, 223, 57);
+    width: 30%;
+    height: 10vh;
+    border-radius: 10px;
+    border: none;  
+    margin-left: 140%;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+}
+
+.but {
+    margin-left: 100%;
+}
+
+#popu {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    margin-left: 10%;
+}
+
+.icon {
+    width: 10%;
+    height: 5vh;
+}
+
+.products img {
+    border-radius: 10%;
+    width: 70%;
+    height: 50%;
+}
+
+.products button {
+    color: rgb(22, 2, 2);
+    background-color: rgb(63, 223, 57);
+    width: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;  
+}
+
+.products button:hover {
+    background-color: aliceblue;
+}
+
+.comments {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.comments img {
+    width: 50%;
+    height: 20vh;
+    border-radius: 100px;
+}
+
+#clients {
+    text-align: center;
+}
+
+.subscribe {
+    text-align: center;
+    background-color: rgb(155, 228, 110);
+    color: black;
+}
+
+.subscribe button {
+    width: 70%;
+    background-color: rgb(36, 133, 36);
+    color: aliceblue;
+    width: 30%;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: aliceblue;
+}
+
+.icon {
+    color: rgb(4, 15, 3);
+}
+@media screen and (max-width: 768px) {
+    .nav img {
+        width: 100%;
+    }
+    
+    .nav a {
+        font-size: 16px;
+    }
+    
+    .btn {
+        margin-left: 0;
+    }
+    
+    .products {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    .nav a {
+        font-size: 14px;
+    }
+    
+    .work img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .btn {
+        width: 40%;
+        height: 7vh;
+    }
+    
+    .products {
+        margin-left: 2%;
+    }
+    
+    .products img {
+        width: 90%;
+        height: auto;
+    }
+    
+    .products button {
+        width: 30%;
+        height: 4vh;
+    }
+    
+    .comments img {
+        width: 70%;
+        height: auto;
+    }
+    
+    .subscribe button {
+        width: 50%;
+        height: 6vh;
+    }
+}

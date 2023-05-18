@@ -1,3 +1,6 @@
+/* .start{
+    background-color: rgb(238, 229, 229);
+} */
 .nav{
     display: grid;
     grid-template-columns: repeat(11,1fr);
@@ -37,7 +40,8 @@
    }
    .service-container .service-box{
        flex: 1 1 30rem;
-       background: rgb(180, 180, 221);
+       background-color: rgb(238, 229, 229);
+       /* background: rgb(180, 180, 221); */
        padding: 2rem 1rem 2rem;
        border-radius: 2rem;
        text-align: center;
@@ -70,4 +74,37 @@
     grid-template-columns: repeat(3,1fr);
     background-color: aliceblue;
 
+}
+
+@media screen and (max-width: 768px) {
+    .nav img {
+        width: 100%;
+    }
+
+    .service-container {
+        flex-direction: column;
+    }
+
+    .service-container .service-box {
+        flex: 1 1 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
+    .service-container {
+        gap: 1rem;
+    }
+
+    .service-container .service-box {
+        flex: 1 1 100%;
+    }
 }

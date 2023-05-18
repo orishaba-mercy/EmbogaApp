@@ -6,6 +6,9 @@
     display: grid;
     grid-template-columns: repeat(11,1fr);
     margin-top: 30px;
+    background-color: #213521;
+    color: aliceblue;
+    
 }
 .nav img{
     width: 50%;
@@ -15,7 +18,10 @@
     color: black;
     display: flex;
     grid-template-columns: repeat(11,1fr);
-    /* margin-top: 30px; */
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 20%;
 }
 .nav button{
     color: rgb(8, 1, 1);
@@ -320,4 +326,66 @@ display: grid;
 }
 .button:hover{
     background-color: #7ddb31;
+}
+
+@media screen and (max-width: 768px) {
+    .nav img {
+        width: 100%;
+    }
+    
+    .nav a {
+        font-size: 16px;
+    }
+    
+    .btn {
+        margin-left: 0;
+    }
+    
+    .products {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    .nav a {
+        font-size: 14px;
+    }
+    
+    .work img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .btn {
+        width: 40%;
+        height: 7vh;
+    }
+    
+    .products {
+        margin-left: 2%;
+    }
+    
+    .products img {
+        width: 90%;
+        height: auto;
+    }
+    
+    .products button {
+        width: 30%;
+        height: 4vh;
+    }
+    
+    .comments img {
+        width: 70%;
+        height: auto;
+    }
+    
+    .subscribe button {
+        width: 50%;
+        height: 6vh;
+    }
 }
