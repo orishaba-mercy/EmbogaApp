@@ -7,7 +7,8 @@
     grid-template-columns: repeat(11,1fr);
     margin-top: 30px;
     background-color: #213521;
-    color: aliceblue;
+    color: white;
+   
     
 }
 .nav img{
@@ -15,7 +16,6 @@
 }
 .nav a{
     text-decoration: none;
-    color: black;
     display: flex;
     grid-template-columns: repeat(11,1fr);
     color: white;
@@ -327,8 +327,14 @@ display: grid;
 .button:hover{
     background-color: #7ddb31;
 }
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(22, 54, 32);
+    color: white;
+}
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .nav img {
         width: 100%;
     }
@@ -388,4 +394,4 @@ display: grid;
         width: 50%;
         height: 6vh;
     }
-}
+} */

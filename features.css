@@ -1,10 +1,10 @@
-/* .start{
-    background-color: rgb(238, 229, 229);
-} */
+
 .nav{
     display: grid;
     grid-template-columns: repeat(11,1fr);
     margin-top: 30px;
+    background-color: rgb(14, 34, 27);
+    color: white;
     
 }
 .nav img{
@@ -13,7 +13,7 @@
 }
 .nav a{
     text-decoration: none;
-    color: black;
+    color:white;
     display: flex;
     grid-template-columns: repeat(11,1fr);
     /* margin-top: 30px; */
@@ -72,7 +72,8 @@
    .footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background-color: aliceblue;
+    background-color: rgb(18, 41, 20);
+    color: white;
 
 }
 
