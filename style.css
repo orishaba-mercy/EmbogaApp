@@ -1,22 +1,20 @@
-
-     
-    .container{
-        color: white;
-    }
-    .start {
-        background-image: url(images/kkkk.jpeg); 
-        background-attachment: fixed;  
-        background-size: cover; 
-        background-repeat: no-repeat; 
-        padding-top: 1%;
-    }  
-    
-   
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.start{
+    background:url(images/Heart-of-Vegetables-removebg-preview.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .nav{
     display: grid;
     grid-template-columns: repeat(11,1fr);
     margin-top: 30px;
-    background-color: #162b16;
+    background-color: #213521;
     color: white;
    
     
@@ -31,129 +29,63 @@
     color: white;
     font-size: 20px;
     margin-top: 30px;
-    padding: 10%;
+    padding: 20%;
 }
 .nav button{
-    color: rgb(3, 8, 1);
+    color: rgb(8, 1, 1);
     background-color: rgb(63, 223, 57);
     width: 60%;
     height: 5vh;
     border-radius: 10px;
     border: none;
 }
-    
-    .work {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        /* background-color: aquamarine; */
-    
-    }    
-    
-    .work img {
-        border-radius: 20%;
-        border-color: solid green;
-        width: 70%;
-        height: 40vh;
-    }
-    
-    .btn {
-        color: rgb(22, 2, 2);
-        background-color: rgb(63, 223, 57);
-        width: 30%;
-        height: 10vh;
-        border-radius: 10px;
-        border: none;  
-        margin-left: 140%;
-    }
-    
-    .btn:hover {
-        background-color: aliceblue;
-    }
-    
-    .but {
-        margin-left: 100%;
-    }
-    
-    #popu {
-        margin-top: 5%;
-        text-align: center;
-    }
-    
-    .products {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        position: relative;
-        margin-left: 10%;
-    }
-    
-    .icon {
-        width: 10%;
-        height: 5vh;
-    }
-    
-    .products img {
-        border-radius: 10%;
-        width: 70%;
-        height: 50%;
-    }
-    
-    .products button {
-        color: rgb(22, 2, 2);
-        background-color: rgb(63, 223, 57);
-        width: 20%;
-        height: 5vh;
-        border-radius: 10px;
-        border: none;  
-    }
-    
-    .products button:hover {
-        background-color: aliceblue;
-    }
-    
-    .comments {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-    }
-    
-    .comments img {
-        width: 50%;
-        height: 20vh;
-        border-radius: 100px;
-    }
-    
-    #clients {
-        text-align: center;
-    }
-    
-    .subscribe {
-        text-align: center;
-        background-color: rgb(155, 228, 110);
-        color: black;
-    }
-    
-    .subscribe button {
-        width: 70%;
-        background-color: rgb(36, 133, 36);
-        color: aliceblue;
-        width: 30%;
-        height: 7vh;
-        border-radius: 10px;
-        border: none;
-    }
-    
-    .footer {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        background-color: #162b16;
-        color: white;
-        
-        
-    }
-    
-    .icon {
-        color: rgb(4, 15, 3);
-    
-    
-} 
 
+.welcom{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.welcom img{
+    width: 80%;
+    height: 40%;
+}
+.butn{
+    margin-left: 40%;
+    margin-top: 20%;
+    width: 200px;
+    height: 50px;
+    background: rgb(58, 122, 58);
+    border: none;
+    /* margin-top: 30px; */
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition:  .4s ease;
+}
+.butn:hovev{
+color: #fff;
+color: rgb(58, 122, 58);
+}
+.butn a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
     
