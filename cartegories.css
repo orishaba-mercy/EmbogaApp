@@ -2,32 +2,33 @@
     padding: 0%;
     margin: 0%;
 }
-.nav{
-    display: grid;
-    grid-template-columns: repeat(11,1fr);
-    margin-top: 30px;
-    background-color: #172e17;
-    color: white;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(17, 65, 17);
+    padding: 10px;
+}
+.navbar a {
+    text-decoration: none;
+    margin-right: 10px;
+    color:white;
+    background-color:rgb(17, 65, 17);
+}
+.navbar img.logo {
+    height: 40px;
+}
+.navbar i {
     font-size: 20px;
 }
-.nav img{
-    width: 50%;
-}
-.nav a{
-    text-decoration: none;
-    color: black;
-    display: flex;
-    color: aliceblue;
-    
-}
-.nav button{
-    color: rgb(8, 1, 1);
-    background-color: rgb(63, 223, 57);
-    width: 60%;
-    height: 5vh;
-    border-radius: 10px;
+.navbar button {
+    padding: 5px 10px;
+    background-color:green;
+    color: #fff;
     border: none;
+    cursor: pointer;
 }
+
 
 .vegetables{
     display: flex;
@@ -180,65 +181,11 @@
 .button:hover{
     background-color: #7ddb31;
 }  
-.footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(22, 54, 32);
+.end{
+    display: flex;
+    gap: 20%;
+    padding-left: 10%;
+    margin-top: 3%;
+    background-color: rgb(14, 73, 14);
     color: white;
-}  
-
-@media screen and (max-width: 768px) {
-    .nav img {
-        width: 100%;
-    }
-
-    .nav {
-        font-size: 16px;
-    }
-
-    .hea {
-        padding-left: 40%;
-    }
-
-    .categ {
-        padding-left: 35%;
-    }
-
-    .wate img,
-    .spin img,
-    .kale img,
-    .cauli img,
-    .avo img,
-    .pear img,
-    .melon img,
-    .cherry img {
-        height: 150px;
-        width: 150px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .nav {
-        font-size: 14px;
-    }
-
-    .hea {
-        padding-left: 30%;
-    }
-
-    .categ {
-        padding-left: 25%;
-    }
-
-    .wate img,
-    .spin img,
-    .kale img,
-    .cauli img,
-    .avo img,
-    .pear img,
-    .melon img,
-    .cherry img {
-        height: 100px;
-        width: 100px;
-    }
-}
+} 

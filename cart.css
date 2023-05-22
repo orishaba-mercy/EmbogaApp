@@ -6,6 +6,19 @@
     display: flex;
     gap: 2%;
   }
+  .cart button{
+    height:40px ;
+    width:160px ;
+    background:#70a570;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .4s ease;
+
+  }
   .fruit2{
     width:60%;
     height:50%;
@@ -23,14 +36,16 @@
   }
  
   .items{
+
     text-decoration: solid;
-    color: black;
+    color: white;
     font: 1em sans-serif;
     border: solid;
-    border-color: green;
-    background-color: #4cae4c;
+    border-color: rgb(6, 15, 6);
+    background-color: #1b3d1b;
     width: 40%;
     margin-top: 3%;
     margin-left: 30%;
     text-align: center;
+    border: 12%;
   }

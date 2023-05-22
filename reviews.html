@@ -6,28 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="reviews.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-  <div class="start">
-    <div class="nav">
-    <img src="images/pjlogo.png" alt="">
+  <div class="navbar">
+    <img src="/images/grocery project logo2 (2).png" alt="" class="logo">
     <a href="index.html">Home</a>
     <a href="features.html">Features</a>
-    <a href="products.html">products</a>
     <a href="cartegories.html">Categories</a>
-    <a href="reviews">reviews</a>
-    <a href=""Blogs>Blogs</a>
-    <a href="/cartegories.html"><ion-icon name="search-outline" class="icon"></ion-icon></a>
-    <a href="/cart.html"><ion-icon name="cart-outline"class="icon"></ion-icon></a>
-    <button>LOGIN</button>
-    <button>SIGNUP</button>
+    <a href="products.html">Products</a>
+    <a href="reviews.html">Reviews</a>
+    <div class="dropdown-toggle" onclick="toggleDropdown()">
+        <span class="menu-text">Menu</span>
+        <span class="menu-icon"><i class='bx bx-menu'></i></span>
+        <span class="close-icon"><i class='bx bx-x'></i></span>
+    </div>
+    <div class="dropdown-content">
+        <a href="cartegories.html">Search</a>
+        <a href="cart.html">Cart</a>
+    </div>
+    <a href=""><button>LOGIN</button></a>
+    <a href=""><button>SIGNUP</button></a>
 </div>
     <h1 class="rev">WHAT OUR CUSTOMERS SAY</h1>
     <div class="container">
         <div class="review">
             <img src="/images/user1.jpeg" alt="">
-          <p>Michael Ongeri</p>
-          <p>May 1, 2023</p>
+          <h3>Michael Ongeri</h3>
           <p>
             Green Kiosk has the best selection of organic produce.<br>
              I love their fruits and vegetables. Highly recommended!
@@ -35,18 +40,16 @@
         </div>
         <div class="review">
             <img src="/images/user2.jpeg" alt="">
-          <p>Winslet Maria</p>
-          <p>April 28, 2023</p>
+          <h3>Winslet Maria</h3>
           <p>
             I've been a loyal customer of Green Kiosk for years.<br>
-             Their products are always fresh and the service is excellent.<br>
-              Keep up the great work!
+             Their products are always fresh and the service is
+              excellent.Keep up the great work!<br>
           </p>
         </div>
         <div class="review">
             <img src="/images/user3.jpg" alt="">
-          <p>Freshenta Muthoni</p>
-          <p >April 25, 2023</p>
+          <h3>Freshenta Muthoni</h3>
           <p>
             Green Kiosk provides a wonderful shopping experience.
             <br> Their staff is knowledgeable and friendly.<br>
@@ -54,30 +57,26 @@
           </p>
         </div>
       </div>
-      <div class="footer">
-        <div>
-            <h1>mamaGreens</h1>
-            <ion-icon name="logo-facebook" class="icon"></ion-icon>
-            <ion-icon name="logo-instagram" class="icon"></ion-icon>
-            <ion-icon name="logo-twitter" class="icon"></ion-icon>
-            <p>mamagreens@gmail.com</p>
+      <div class="end">
+        <div class="bbi">
+                <h3>GROCERY</h3>
+                <i class='bx bxl-twitter' style="font-size: x-large;"></i>
+                <i class='bx bxl-facebook' style="font-size: x-large;"></i>
+                <i class='bx bxl-instagram' style="font-size: x-large;"></i>
+                <i class='bx bxl-whatsapp' style="font-size: x-large;" ></i>
+                <i class='bx bxl-gmail' style="font-size: x-large;" ></i>
+                <p>mmboga@gmail.com</p>
         </div>
-        <div>
-            <H2>LEARN MORE</H2>
-            <P>Sucess stories</P>
-            <p>Why Us?</p>
-            <p>How it Works</p>
-            <p>FAQS</p>
+        <div class="bb2">
+                <h3>LEARN MORE</h3>
+                <P>Sucess stories</P>
+                <p>How it Works</p>
         </div>
-        <div>
-            <h3>RESOURCES</h3>
-            <p>Help center</p>
-            <p>Blog</p>
-            <p>Carrer</p>
-            <P>press center</P>
-            <p>About Us</p>
-          
+        <div class="bb3">
+                <h3>RESOURCES</h3>
+                <p>Help center</p>
+                 <p>Blog</p>
         </div>
-        </div>
+    </div>
 </body>
 </html>

@@ -6,21 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="cartegories.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="start">
-        <div class="nav">
-        <img src="images/pjlogo.png" alt="">
+
+    <script>
+        // JavaScript to toggle the dropdown menu
+        function toggleDropdown() {
+            var dropdownToggle = document.querySelector('.navbar .dropdown-toggle');
+            dropdownToggle.classList.toggle('active');
+        }
+    </script>
+    <div class="navbar">
+        <img src="/images/grocery project logo2 (2).png" alt="" class="logo">
         <a href="index.html">Home</a>
         <a href="features.html">Features</a>
-        <a href="products.html">products</a>
         <a href="cartegories.html">Categories</a>
-        <a href="reviews.html">reviews</a>
-        <!-- <a href="blog.html">Blogs</a> -->
-        <ion-icon name="search-outline" class="icon"></ion-icon>
-        <ion-icon name="cart-outline"class="icon"></ion-icon>
-        <button>LOGIN</button>
-        <button>SIGNUP</button>
+        <a href="products.html">Products</a>
+        <a href="reviews.html">Reviews</a>
+        <!-- <div class="dropdown-toggle" onclick="toggleDropdown()">
+            <span class="menu-text">Menu</span>
+            <span class="menu-icon"><i class='bx bx-menu'></i></span>
+            <span class="close-icon"><i class='bx bx-x'></i></span>
+        </div> -->
+        <div class="dropdown-content">
+            <a href="cartegories.html">Search</a>
+            <a href="cart.html">Cart</a>
+        </div>
+        <a href=""><button>LOGIN</button></a>
+        <a href=""><button>SIGNUP</button></a>
     </div>
     <div class="categ">
         <h1>Product Categories</h1>
@@ -36,8 +50,8 @@
         <button class="button"><a href="cart.html">Shop Now</a></button>
        </div>
        <div class="spin">
-        <img src="images/spinach.png" alt="pic">
-        <p>Spinach</p>
+        <img src="images/tomatoes.png" alt="pic">
+        <p>Tomatoes</p>
         <p>Up to 20% off</p>
         <button class="button"><a href="cart.html">Shop Now</a></button>
        </div>
@@ -48,8 +62,8 @@
         <button class="button"><a href="cart.html">Shop Now</a></button>
        </div>
        <div class="wate">
-        <img src="images/water spinach.png" alt="pic">
-        <p>Water Spinach</p>
+        <img src="images/cabbage.png" alt="pic">
+        <p>cabbage</p>
         <p>Up to 20% off</p>
         <button class="button"><a href="cart.html">Shop Now</a></button>
        </div>
@@ -83,30 +97,24 @@
             <button class="button"><a href="#">Shop Now</a></button>
            </div>
        </div>
-       <div class="footer">
-        <div>
-            <h1>mamaGreens</h1>
-            <ion-icon name="logo-facebook" class="icon"></ion-icon>
-            <ion-icon name="logo-instagram" class="icon"></ion-icon>
-            <ion-icon name="logo-twitter" class="icon"></ion-icon>
-            <p>mamagreens@gmail.com</p>
+       <div class="end">
+        <div class="bbi">
+                <h3>GROCERY</h3>
+                <i class='bx bxl-twitter' style="font-size: x-large;"></i>
+                <i class='bx bxl-facebook' style="font-size: x-large;"></i>
+                <i class='bx bxl-instagram' style="font-size: x-large;"></i>
+                <i class='bx bxl-whatsapp' style="font-size: x-large;" ></i>
+                <i class='bx bxl-gmail' style="font-size: x-large;" ></i>
+                <p>mmboga@gmail.com</p>
         </div>
-        <div>
-            <H2>LEARN MORE</H2>
-            <P>Sucess stories</P>
-            <p>Why Us?</p>
-            <p>How it Works</p>
-            <p>FAQS</p>
+        <div class="bb2">
+                <h3>LEARN MORE</h3>
+                <P>Sucess stories</P>
+                <p>How it Works</p>
         </div>
-        <div>
-            <h3>RESOURCES</h3>
-            <p>Help center</p>
-            <p>Blog</p>
-            <p>Carrer</p>
-            <P>press center</P>
-            <p>About Us</p>
-          
+        <div class="bb3">
+                <h3>RESOURCES</h3>
+                <p>Help center</p>
+                 <p>Blog</p>
         </div>
-        </div>
-</body>
-</html>
+    </div>        
