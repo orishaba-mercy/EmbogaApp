@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:green;
+    background-color:rgb(14, 73, 14);
     padding: 10px;
 }
 .navbar a {
@@ -19,7 +19,7 @@
 .navbar button {
     padding: 5px 10px;
     background-color:white;
-    color: green;
+    color:rgb(14, 73, 14);
     border: none;
     cursor: pointer;
 }
@@ -40,7 +40,7 @@
     .navbar .dropdown-content {
         display: none;
         flex-direction: column;
-        background-color: green;
+        background-color: rgb(14, 73, 14);
         padding: 10px;
     }
     .navbar .dropdown-toggle {
@@ -106,7 +106,9 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background-color: rgb(14, 73, 14);
-    color: white;  
+    color: white; 
+    margin-top: 12%;
+    padding: 4%;
    
 }
 

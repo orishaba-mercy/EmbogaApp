@@ -295,6 +295,10 @@ display: grid;
     padding: 30px 20px;
 
 }
+
+h1{
+    text-align: center;
+}
 .onion{
     display: grid;
     grid-template-columns: auto-fit,minmax(270px,1fr);
