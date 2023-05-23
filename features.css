@@ -23,64 +23,13 @@
     border: none;
     cursor: pointer;
 }
-/* Media queries for responsive design */
-@media screen and (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .navbar img.logo {
-        margin-bottom: 10px;
-    }
-    .navbar a, .navbar i {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-    /* Dropdown menu styles */
-    .navbar .dropdown-content {
-        display: none;
-        flex-direction: column;
-        background-color: rgb(14, 73, 14);
-        padding: 10px;
-    }
-    .navbar .dropdown-toggle {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        cursor: pointer;
-    }
-    .navbar .dropdown-toggle .menu-icon {
-        font-size: 20px;
-    }
-    .navbar .dropdown-toggle .close-icon {
-        display: none;
-        font-size: 20px;
-    }
-    .navbar .dropdown-toggle .menu-text {
-        margin-right: 5px;
-    }
-    .navbar .dropdown-content a {
-        margin-bottom: 5px;
-    }
-    /* Show/hide dropdown menu on click */
-    .navbar .dropdown-toggle.active .menu-icon {
-        display: none;
-    }
-    .navbar .dropdown-toggle.active .close-icon {
-        display: block;
-    }
-    .navbar .dropdown-toggle.active ~ .dropdown-content {
-        display: flex;
-    }
-}
-
 
 .service-container{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-   
+  
    }
   
    .service-box i{
@@ -101,14 +50,15 @@
    }
    .heading{
     text-align: center;
+    margin-top: 5%;
    }
    .end{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background-color: rgb(14, 73, 14);
     color: white; 
-    margin-top: 12%;
-    padding: 4%;
+    margin-top: 20%;
+    padding: 0%;
    
 }
 
@@ -144,3 +94,61 @@
         flex: 1 1 100%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar img.logo {
+        margin-bottom: 10px;
+    }
+    .navbar a, .navbar i {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+   
+    .navbar .dropdown-content {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(14, 73, 14);
+        padding: 10px;
+    }
+    .navbar .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .navbar .dropdown-toggle .menu-icon {
+        font-size: 20px;
+    }
+    .navbar .dropdown-toggle .close-icon {
+        display: none;
+        font-size: 20px;
+    }
+    .navbar .dropdown-toggle .menu-text {
+        margin-right: 5px;
+    }
+    .navbar .dropdown-content a {
+        margin-bottom: 5px;
+    }
+    
+    .navbar .dropdown-toggle.active .menu-icon {
+        display: none;
+    }
+    .navbar .dropdown-toggle.active .close-icon {
+        display: block;
+    }
+    .navbar .dropdown-toggle.active ~ .dropdown-content {
+        display: flex;
+    }
+    .end {
+        padding-left: 2%;
+        margin-top: 0;
+        background-color: rgb(14, 73, 14);
+        color: white;
+    }
+    
+}
+

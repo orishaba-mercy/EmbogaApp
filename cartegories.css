@@ -1,6 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    overflow-x: hidden;
 }
 .navbar {
     display: flex;
@@ -28,7 +29,6 @@
     border: none;
     cursor: pointer;
 }
-
 
 .vegetables{
     display: flex;
@@ -188,5 +188,52 @@
     margin-top: 3%;
     background-color: rgb(14, 73, 14);
     color: white;
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-} 
+    .navbar a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar button {
+        margin-top: 10px;
+    }
+    
+        .vegetables,
+        .fruits {
+            flex-direction: column;
+        }
+    
+        .wate,
+        .spin,
+        .kale,
+        .cauli,
+        .avo,
+        .pear,
+        .melon,
+        .cherry {
+            grid-template-columns: 1fr;
+        }
+    
+        .hea,
+        .categ {
+            padding-left: 0;
+            text-align: center;
+        }
+        .end {
+            flex-direction: column;
+            gap: 10px;
+            padding: 20px;
+            margin-top: 2%;
+            text-align: center;
+        }
+}
+
+
+
+ 
