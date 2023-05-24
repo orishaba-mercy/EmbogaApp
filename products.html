@@ -14,25 +14,34 @@
 </head>
 <body>
 
-    <div class="navbar">
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <!-- <img src="/images/grocery project logo2 (2).png" alt="" class="logo"> -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="cartegories.html">Categories</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <a href="cart.html"><i class='bx bxs-cart'></i></a>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="images/menu.png" id="menu">
+    </div>
+
+    <!-- <div class="navbar">
         <img src="/images/grocery project logo2 (2).png" alt="" class="logo">
         <a href="index.html">Home</a>
         <a href="features.html">Features</a>
         <a href="cartegories.html">Categories</a>
         <a href="products.html">Products</a>
         <a href="reviews.html">Reviews</a>
-        <!-- <div class="dropdown-toggle" onclick="toggleDropdown()">
-            <span class="menu-text">Menu</span>
-            <span class="menu-icon"><i class='bx bx-menu'></i></span>
-            <span class="close-icon"><i class='bx bx-x'></i></span>
-        </div> -->
-        <div class="dropdown-content">
-            <a href="cartegories.html">Search</a>
-            <a href="cart.html">Cart</a>
-        </div>
-        <a href=""><button>LOGIN</button></a>
-        <a href=""><button>SIGNUP</button></a>
-    </div>
+        <a href="cart.html"><i class='bx bxs-cart'></i></a>
+
+                
+    </div> -->
     <div class="head">
         <h1>Our Products</h1>
     </div>
@@ -223,6 +232,23 @@
 </div>
 
 
+
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+    sideNav.style.right = "-250px"
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            menu.src = "images/close.png";
+        }
+        else{
+             sideNav.style.right = "-250px";
+             menu.src = "images/menu.png";
+        }
+    }
+</script>
 
 </body>
 </html>

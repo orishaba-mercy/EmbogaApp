@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(9, 36, 9);
+    background-color:rgb(17, 65, 17);
     padding: 10px;
 }
 .navbar a {
@@ -23,7 +23,39 @@
     border: none;
     cursor: pointer;
 }
-/* Media queries for responsive design */
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: solid green;
+    margin-top: 20px;
+    display: grid;
+    /* grid-template-columns: auto-fit,minmax(270px,1fr); */
+    gap:15px;
+    box-shadow: 0px;
+    border-radius: 5px;
+    /* background-color: rgb(238, 229, 229); */
+    text-align: center;
+    /* padding: 30px 20px; */
+}
+.container img{
+    width: 50%;
+    height: 30vh;
+}
+.rev{
+    color: green;
+    text-align: center;
+    text-decoration: solid;
+    margin-top: 5%;
+}
+.end{
+    display: flex;
+    gap: 20%;
+    padding-left: 10%;
+    margin-top: 3%;
+    background-color: rgb(14, 73, 14);
+    color: white;
+}
+
 @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -36,7 +68,7 @@
         margin-right: 0;
         margin-bottom: 10px;
     }
-    /* Dropdown menu styles */
+    
     .navbar .dropdown-content {
         display: none;
         flex-direction: column;
@@ -62,7 +94,7 @@
     .navbar .dropdown-content a {
         margin-bottom: 5px;
     }
-    /* Show/hide dropdown menu on click */
+  
     .navbar .dropdown-toggle.active .menu-icon {
         display: none;
     }
@@ -73,40 +105,9 @@
         display: flex;
     }
 }
-.container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    border-radius: solid green;
-    margin-top: 20px;
-    display: grid;
-    /* grid-template-columns: auto-fit,minmax(270px,1fr); */
-    gap:15px;
-    box-shadow: 0px;
-    border-radius: 5px;
-    /* background-color: rgb(238, 229, 229); */
-    text-align: center;
-    /* padding: 30px 20px; */
-}
-.container img{
-    width: 70%;
-    height: 15vh;
-}
-.rev{
-    color: green;
-    text-align: center;
-    text-decoration: solid;
-    margin-top: 5%;
-}
-.end{
-    display: flex;
-    gap: 20%;
-    padding-left: 10%;
-    margin-top: 3%;
-    background-color: rgb(14, 73, 14);
-    color: white;
-}
+
 @media (max-width: 768px) {
-    /* Styles for screens up to 768px wide */
+   
     .end {
         flex-direction: column;
         gap: 10px;
@@ -118,12 +119,16 @@
 }
 
 @media (max-width: 480px) {
-    /* Styles for screens up to 480px wide */
+    
     .end {
         padding-left: 2%;
         margin-top: 0;
-        background-color: rgb(14, 14, 73);
-        color: yellow;
+        background-color: rgb(14, 73, 14);
+        color: white;
+    }
+    .container img{
+width: 50%;
+height:10vh ;
     }
 }
 
