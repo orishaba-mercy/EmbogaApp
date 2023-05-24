@@ -21,6 +21,8 @@
   
   .form-group {
     margin-bottom: 20px;
+    text-align: none;
+    text-decoration-line: none;
   }
   
   label {
@@ -36,6 +38,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
   }
+  button
   
   .btn {
     display: block;

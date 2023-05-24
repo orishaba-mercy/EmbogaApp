@@ -23,7 +23,7 @@
 }
 .navbar button {
     padding: 5px 10px;
-    background-color: #333;
+    background-color:greenyellow;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -85,10 +85,10 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
+    /* text-align: center; */
     font: 1em sans-serif;
     text-decoration: solid;
-    color: green;
+    color: rgb(20, 20, 20);
 }
 
 .welcom{
@@ -101,8 +101,8 @@
     height: 40%;
 }
 .butn{
-    margin-left:10%;
-    margin-top: 5%;
+    
+    margin-left: 40%;
     width: 200px;
     height: 50px;
     background: rgb(58, 122, 58);
@@ -112,6 +112,7 @@
     cursor: pointer;
     color: #fff;
     transition:  .4s ease;
+    margin-top: 8%;
 }
 .butn:hovev{
 color: #fff;
@@ -121,10 +122,14 @@ color: rgb(58, 122, 58);
     color: #000;
     text-decoration: none;
     font-weight: bold;
+   ;
 }
 .words{
-    padding-left:10%;
-    padding-top:10%;
+    margin-left: 30%;
+    padding-top: 15%;
+    font-size: 30px;
+   
+    
 }
 
 @media (max-width: 767px) {
