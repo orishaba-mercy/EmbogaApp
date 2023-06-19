@@ -14,53 +14,61 @@
 </head>
 <body>
 
-    <div id="sideNav">
+  
+    <header>
+        <div id="brand"><a href="/">M.Mboga</a></div>
         <nav>
-            <ul>
-                <!-- <img src="/images/grocery project logo2 (2).png" alt="" class="logo"> -->
-                <li><a href="index.html">Home</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="cartegories.html">Categories</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="reviews.html">Reviews</a></li>
-                <a href="cart.html"><i class='bx bxs-cart'></i></a>
-            </ul>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/features.html">Features</a></li>
+            <li><a href="/cartegories.html">Categories</a></li>
+            <li><a href="products.html">Products</a></li>
+            <!-- <li><a href="reviews.html">Reviews</a></li> -->
+            
+          </ul>
         </nav>
-    </div>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/features.html">Features</a></li>
+            <li><a href="/cartegories.html">Categories</a></li>
+            <li><a href="products.html">Products</a></li>
+            <script src="index.js"></script>
+           
+          </ul>
+        </div>
+      </header>
+
     <div id="menuBtn">
         <img src="images/menu.png" id="menu">
     </div>
 
-    <!-- <div class="navbar">
-        <img src="/images/grocery project logo2 (2).png" alt="" class="logo">
-        <a href="index.html">Home</a>
-        <a href="features.html">Features</a>
-        <a href="cartegories.html">Categories</a>
-        <a href="products.html">Products</a>
-        <a href="reviews.html">Reviews</a>
-        <a href="cart.html"><i class='bx bxs-cart'></i></a>
+   
 
-                
-    </div> -->
-    <div class="head">
-        <h1>Our Products</h1>
-    </div>
-    <div class="imag1">
-   <div class="grapes">
+<div class="products"> 
+    <h1 id="pro">PRODUCTS</h1>
+<div class="product1">
+    <div class="onion">
     <img src="images/green grapes.png" alt="pic">
     <p>Grapes</p>
     <p>ksh.50</p>
-    <div class="icon">
+<div class="icon">
+    
     <ion-icon name="star"></ion-icon>
     <ion-icon name="star"></ion-icon>
     <ion-icon name="star"></ion-icon>
     <ion-icon name="star"></ion-icon>
-    <ion-icon name="star-half"></ion-icon>
+    <ion-icon name="star-half"></ion-icon> 
+
 </div>
-    <button class="button"><a href="cartegories.html">Add to cart</a></button>
-   </div>
-  <div class="gapple">
-   <img src="images/green apples (3).png" alt="pic">
+<button class="button"><a href="cart.html">Add to cart</a></button>
+
+</div>
+<div class="onion">
+    <img src="images/green apples (3).png" alt="pic">
    <p>Green Apples</p>
    <p>ksh 30</p>
    <div class="icon">
@@ -69,23 +77,12 @@
     <ion-icon name="star"></ion-icon>
     <ion-icon name="star"></ion-icon>
     <ion-icon name="star-half"></ion-icon>
-   </div>
-   <button class="button"><a href="cart.html">Add to cart</a></button>
-   </div>
-   <div class="rapple">
-    <img src="images/red apple.png" alt="pic">
-    <p>Red Apples</p>
-    <p>ksh 30</p>
-    <div class="icon">
-        <ion-icon name="star"></ion-icon>
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star-half"></ion-icon>
+
     </div>
     <button class="button"><a href="cart.html">Add to cart</a></button>
-   </div>
-   <div class="banan">
+
+ </div>
+   <div class="onion">
     <img src="images/banana.png" alt="pic">
     <p>Banana</p>
     <p>ksh 20</p>
@@ -98,116 +95,109 @@
     </div>
     <button class="button"><a href="cart.html">Add to cart</a></button>
 </div>
-</div>
-<div class="imag2">
-   <div class="brocco">
-    <img src="images/brocolli.png" alt="pic">
-    <p>Broccoli</p>
-    <p>ksh 120</p>
-    <div class="icon">
+</div>&nbsp;
+&nbsp;
+<br>
+
+
+
+<div class="product1">
+
+    <div class="onion">
+        <img src="images/brocolli.png" alt="pic">
+        <p>Broccoli</p>
+        <p>ksh 120</p>
+        <div class="icon">
+            <ion-icon name="star"></ion-icon>
         <ion-icon name="star"></ion-icon>
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star-half"></ion-icon>
-    </div>
-    <button class="button"><a href="cart.html">Add to cart</a></button>
-</div>
-   <div class="cabbage">
-    <img src="images/cabbage.png" alt="pic">
-    <p>Cabbage</p>
-    <p>ksh 50</p>
-    <div class="icon">
         <ion-icon name="star"></ion-icon>
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star-half"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star-half"></ion-icon>
+        </div>
+        <button class="button"><a href="cart.html">Add to cart</a></button>
     </div>
-    <button class="button"><a href="cart.html">Add to cart</a></button>
-</div>
-   <div class="cucum">
-    <img src="images/tomatoes.png" alt="pic">
-    <p>Tomatoes</p>
-    <p>ksh 40</p>
-    <div class="icon">
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star"></ion-icon>
-    <ion-icon name="star-half"></ion-icon>
+
+    <div class="onion">
+        <img src="images/cabbage.png" alt="pic">
+        <p>Cabbage</p>
+        <p>ksh 50</p>
+        <div class="icon">
+            <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star-half"></ion-icon>
+        </div>
+        <button class="button"><a href="cart.html">Add to cart</a></button>
     </div>
-    <button class="button"><a href="cart.html">Add to cart</a></button>
-</div>
-   <div class="eggp">
-    <img src="images/pears.jpeg" alt="pic">
-    <p>pears</p>
-    <p>ksh 55</p>
-    <div class="icon">
+
+
+    <div class="onion">
+        <img src="images/tomatoes.png" alt="pic">
+        <p>Tomatoes</p>
+        <p>ksh 40</p>
+        <div class="icon">
         <ion-icon name="star"></ion-icon>
         <ion-icon name="star"></ion-icon>
         <ion-icon name="star"></ion-icon>
         <ion-icon name="star"></ion-icon>
         <ion-icon name="star-half"></ion-icon>
+        </div>
+        <button class="button"><a href="cart.html">Add to cart</a></button>
     </div>
-    <button class="button"><a href="cart.html">Add to cart</a></button>
 </div>
-</div>
-<div class="imag3">
-   <div class="green">
-    <img src="images/pineapple.png" alt="pic">
-    <p>Pineapple</p>
-    <p>ksh 130</p>
-    <div class="icon">
+
+<div class="product1">
+
+    <div class="onion">
+        <img src="images/red apple.png" alt="pic">
+        <p>Red Apples</p>
+        <p>ksh 30</p>
+        <div class="icon">
         <ion-icon name="star"></ion-icon>
         <ion-icon name="star"></ion-icon>
         <ion-icon name="star"></ion-icon>
         <ion-icon name="star"></ion-icon>
         <ion-icon name="star-half"></ion-icon>
-    </div>
-    <button class="button"><a href="cart.html">Add to cart</a></button>
-</div>
-   <div class="kales">
-    <img src="images/sukuma.png" alt="pic">
-    <p>Kales</p>
+        </div>
+        <button class="button"><a href="cart.html">Add to cart</a></button>
+</div> 
+
+<div class="onion">
+    <img src="images/eggplants.png" alt="pic">
+    <p>Egg plant</p>
     <p>ksh 30</p>
     <div class="icon">
         <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star-half"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star-half"></ion-icon>
     </div>
     <button class="button"><a href="cart.html">Add to cart</a></button>
-</div>
-   <div class="mango">
-    <img src="images/mangos.png" alt="pic">
-    <p>Mango</p>
-    <p>ksh 30</p>
-    <div class="icon">
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star-half"></ion-icon>
-    </div>
-    <button class="button"><a href="cart.html">Add to cart</a></button>
-</div>
+   </div>
+
    <div class="onion">
-    <img src="images/avocado.png" alt="pic">
-    <p>Onions</p>
-    <p>ksh 20</p>
+    <img src="images/cauliflower.png" alt="pic">
+    <p>cauliflower</p>
+    <p>ksh 30</p>
     <div class="icon">
         <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star-half"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star-half"></ion-icon>
     </div>
     <button class="button"><a href="cart.html">Add to cart</a></button>
+   </div>
+</div>
 
 </div>
-</div>
+
+
+   
+  
+  
  
 <div class="end">
     <div class="bbi">
@@ -219,20 +209,24 @@
             <i class='bx bxl-gmail' style="font-size: x-large;" ></i>
             <p>mmboga@gmail.com</p>
     </div>
+
     <div class="bb2">
-            <h3>LEARN MORE</h3>
-            <P>Sucess stories</P>
-            <p>How it Works</p>
-    </div>
-    <div class="bb3">
-            <h3>RESOURCES</h3>
-            <p>Help center</p>
-             <p>Blog</p>
-    </div>
+        <h3>LEARN MORE</h3>
+        <P>Sucess stories</P>
+        <p>How it Works</p>
 </div>
+<div class="bb3">
+        <h3>RESOURCES</h3>
+        <p>Help center</p>
+         <p>Blog</p>
+</div> 
+</div>
+   
 
 
 
+
+<!-- 
 <script>
     var menuBtn = document.getElementById("menuBtn")
     var sideNav = document.getElementById("sideNav")
@@ -248,7 +242,7 @@
              menu.src = "images/menu.png";
         }
     }
-</script>
+</script> -->
 
 </body>
 </html>

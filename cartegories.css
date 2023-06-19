@@ -1,34 +1,9 @@
-*{
+/* *{
     padding: 0%;
     margin: 0%;
     overflow-x: hidden;
 }
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:rgb(17, 65, 17);
-    padding: 10px;
-}
-.navbar a {
-    text-decoration: none;
-    margin-right: 10px;
-    color:white;
-    background-color:rgb(17, 65, 17);
-}
-.navbar img.logo {
-    height: 40px;
-}
-.navbar i {
-    font-size: 20px;
-}
-.navbar button {
-    padding: 5px 10px;
-    background-color:green;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
+
 
 .vegetables{
     display: flex;
@@ -84,18 +59,18 @@
     display: grid;
     grid-template-columns: auto-fit,minmax(270px,1fr);
     /* gap:15px; */
-    box-shadow: 0px;
+    /* box-shadow: 0px;
     border-radius: 5px;
     background-color: rgb(238, 229, 229);
     text-align: center;
     padding: 30px 20px;  
 
-}
-.kale{
+} */
+/* .kale{
     display: grid;
     grid-template-columns: auto-fit,minmax(270px,1fr);
-    /* gap:15px; */
-    box-shadow: 0px;
+    gap:15px; */
+    /* box-shadow: 0px;
     border-radius: 5px;
     background-color: rgb(238, 229, 229);
     text-align: center;
@@ -105,7 +80,7 @@
     display: grid;
     grid-template-columns: auto-fit,minmax(270px,1fr);
     /* gap:15px; */
-    box-shadow: 0px;
+    /* box-shadow: 0px;
     border-radius: 5px;
     background-color: rgb(238, 229, 229);
     text-align: center;
@@ -114,18 +89,18 @@
 .cauli{
     display: grid;
     grid-template-columns: auto-fit,minmax(270px,1fr);
-    /* gap:15px; */
-    box-shadow: 0px;
-    border-radius: 5px;
+  
+    box-shadow: 0px; */ 
+    /* border-radius: 5px;
     background-color: rgb(238, 229, 229);
     text-align: center;
     padding: 30px 20px;
 }
 .avo{
     display: grid;
-    grid-template-columns: auto-fit,minmax(270px,1fr);
+    grid-template-columns: auto-fit,minmax(270px,1fr); */
     /* gap:15px; */
-    box-shadow: 0px;
+    /* box-shadow: 0px;
     border-radius: 5px;
     background-color: rgb(238, 229, 229);
     text-align: center;
@@ -134,18 +109,18 @@
 .pear{
     display: grid;
     grid-template-columns: auto-fit,minmax(270px,1fr);
-    /* gap:15px; */
+    gap:15px; 
     box-shadow: 0px;
     border-radius: 5px;
     background-color: rgb(238, 229, 229);
     text-align: center;
     padding: 30px 20px;
-}
-.melon{
+} */
+/* .melon{
     display: grid;
-    grid-template-columns: auto-fit,minmax(270px,1fr);
-    /* gap:15px; */
-    box-shadow: 0px;
+    grid-template-columns: auto-fit,minmax(270px,1fr);  */
+    /* gap:15px;
+    /* box-shadow: 0px;
     border-radius: 5px;
     background-color: rgb(238, 229, 229);
     text-align: center;
@@ -155,13 +130,13 @@
     display: grid;
     grid-template-columns: auto-fit,minmax(270px,1fr);
     /* gap:15px; */
-    box-shadow: 0px;
+    /* box-shadow: 0px;
     border-radius: 5px;
     background-color: rgb(238, 229, 229);
     text-align: center;
     padding: 30px 20px;
-}
-.button{
+} */
+/* .button{
     height:40px ;
     width:160px ;
     background:#70a570;
@@ -175,7 +150,7 @@
 }
 .button a{
     text-decoration: none;
-    color: #000;
+    color: white;
     transition:  .3s ease;
 }
 .button:hover{
@@ -189,24 +164,42 @@
     background-color: rgb(14, 73, 14);
     color: white;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100%;
+}
+
+.content {
+  grid-row: 1 / span 1;
+}
+
+.end {
+  padding-left: 10%;
+  padding-top: 2%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(14, 73, 14);
+  color: white;
+  height:20%;
+}
+.end-footer {
+  padding-left: 0; /* Set padding-left to 0 */
+
+/* 
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbar a {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
-    .navbar button {
-        margin-top: 10px;
-    }
+   
     
         .vegetables,
         .fruits {
             flex-direction: column;
+            margin-top: 4%;
         }
     
         .wate,
@@ -218,21 +211,437 @@
         .melon,
         .cherry {
             grid-template-columns: 1fr;
+            gap: 5%;
+            margin-top: 5%;
         }
     
         .hea,
         .categ {
             padding-left: 0;
             text-align: center;
+            margin-top: 3%;
         }
-        .end {
-            flex-direction: column;
-            gap: 10px;
-            padding: 20px;
-            margin-top: 2%;
-            text-align: center;
+        .end{
+          display: block;
+          text-align: left;
+          margin-top: 40%;
+         
+      }
+
+        ul a{
+            color: white;
+            
         }
+        ul{
+          
+          background-color: green;
+          color: white;
+        }
+
+
+   } */
+
+/* header a {
+  text-decoration: none;
 }
+
+header {
+  padding: 0 20px;
+  background-color: rgb(14, 73, 14);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+#brand a {
+  color: #09c372;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul a {
+  color: white;
+}
+
+ul li {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}  */
+
+/* .open .bar1 {
+  /* -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px); */
+
+
+/* .open .bar2 {
+  opacity: 0;
+} */
+
+/* .open .bar3 { */
+  /* -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px); */
+/* } */ 
+
+/* .open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  height: calc(32vh - 50px);
+  width: 100%;
+  border-color: green;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+
+  ul a{
+    color:white;
+  }
+ul{
+border: solid;
+background-color: green;
+height: 8px;
+}
+  .body{
+    background-color: #09c372;
+  }
+  .start{
+    background-image: url(/images/stock-photo-fruit.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .butn{
+    margin-left: 40%;
+  }
+} */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(14, 73, 14);
+  
+}
+
+#brand a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Mobile menu styles */
+#hamburger-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* Categories section styles */
+.categ {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.categ h1 {
+  text-align: center;
+}
+
+.hea {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.hea h1 {
+  text-align: center;
+}
+
+.vegetables,
+.fruits {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.vegetables .cauli,
+.vegetables .spin,
+.vegetables .kale,
+.vegetables .wate,
+.fruits .avo,
+.fruits .melon,
+.fruits .pear,
+.fruits .cherry {
+  width: 250px;
+  text-align: center;
+}
+
+.vegetables img,
+.fruits img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.vegetables p,
+.fruits p {
+  margin: 5px 0;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: rgb(14, 73, 14);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Footer styles */
+.end {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(14, 73, 14);
+  color: white;
+  padding: 40px;
+}
+
+.bbi,
+.bb2,
+.bb3 {
+  text-align: center;
+}
+
+.bbi h3,
+.bb2 h3,
+.bb3 h3 {
+  font-size: 24px;
+}
+
+.bbi i,
+.bb2 p,
+.bb3 p {
+  margin-bottom: 5px;
+}
+
+.bbi i,
+.bb2 i,
+.bb3 i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+@media (max-width: 768px) {
+ 
+  .end {
+    grid-template-columns: 1fr;
+    margin-right: 20px;
+  }
+}
+header a {
+  text-decoration: none;
+}
+
+header {
+  padding: 0 20px;
+  background-color: rgb(14, 73, 14);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+#brand a {
+  color: #09c372;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul a {
+  color: white;
+}
+
+ul li {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  height: calc(32vh - 50px);
+  width: 100%;
+  border-color: green;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+
+  ul a{
+    color:white;
+  }
+ul{
+border: solid;
+background-color: green;
+height: 8px;
+}
+  .body{
+    background-color: #09c372;
+  }
+  .start{
+    background-image: url(/images/stock-photo-fruit.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .butn{
+    margin-left: 40%;
+  }
+}
+
+  
+
 
 
 

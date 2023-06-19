@@ -9,19 +9,32 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <!-- <div id="menuBtn">
-        <img src="images/menu.png" id="menu">
-    </div> -->
-    <div class="navbar">
-        <img src="/images/grocery project logo2 (2).png" alt="" class="logo">
-        <a href="index.html">Home</a>
-        <a href="features.html">Features</a>
-        <a href="cartegories.html">Categories</a>
-        <a href="products.html">Products</a>
-        <a href="reviews.html">Reviews</a>
-        <a href="cart.html"><i class='bx bxs-cart'></i></a>
-
-    </div>
+    <header>
+        <div id="brand"><a href="/">M.Mboga</a></div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/features.html">Features</a></li>
+                <li><a href="/cartegories.html">Categories</a></li>
+                <li><a href="products.html">Products</a></li>
+                
+              </ul>
+            </nav>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+              <ul class="mobile-menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/features.html">Features</a></li>
+                <li><a href="/cartegories.html">Categories</a></li>
+                <li><a href="products.html">Products</a></li>
+               
+              </ul>
+            </div>
+          </header>
+          <script src="/index.js"></script>
+   
     <div class="categ">
         <h1>Product Categories</h1>
     </div>
@@ -31,7 +44,7 @@
     <div class="vegetables">
     <div class="cauli">
         <img src="images/cauliflower.png" alt="pic">
-        <p>Cauliflower</p>
+        <p>Cauli flower</p>
         <p>Up to 20% off</p>
         <button class="button"><a href="cart.html">Shop Now</a></button>
        </div>
@@ -106,22 +119,5 @@
     </div>  
    
     
-
-    <!-- <script>
-        var menuBtn = document.getElementById("menuBtn")
-        var sideNav = document.getElementById("sideNav")
-        var menu = document.getElementById("menu")
-        sideNav.style.right = "-250px"
-        menuBtn.onclick = function(){
-            if(sideNav.style.right == "-250px"){
-                sideNav.style.right = "0";
-                menu.src = "images/close.png";
-            }
-            else{
-                 sideNav.style.right = "-250px";
-                 menu.src = "images/menu.png";
-            }
-        }
-    <!-- </script> -->
-    <!-- </body> 
-    </html>      --> -->
+</body> 
+    </html>      

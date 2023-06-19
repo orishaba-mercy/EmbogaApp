@@ -8,32 +8,58 @@
     <link rel="stylesheet" href="cart.css">
 </head>
 <body>
+
+    <header>
+        <div id="brand"><a href="/">M.Mboga</a></div>
+        <nav>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/features.html">Features</a></li>
+            <li><a href="/cartegories.html">Categories</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="/home">Home</a></li>
+            <li><a href="/features.html">Features</a></li>
+            <li><a href="/cartegories.html">Categories</a></li>
+            <li><a href="products.html">Products</a></li>
+           
+          </ul>
+        </div>
+      </header>
     
     <div class="cart">
 
         <div class="add1">
             <img src="images/orange.jpeg" alt="" srcset="" class="fruit1">
-            <h3>Red Apples</h3>
+            <h3>Oranges</h3>
               
               <br>
-              <a href="payment.html"><button>Pay</button></a> 
+              <a href="products.html"><button>+  |  -</button></a> 
                      <br>
         </div>
         <div class="add1">
-            <img src="images/pears.jpeg" alt="" srcset="" class="fruit2">
-            <h3>Kales</h3>
+            <img src="images/banana.png" alt="" srcset="" class="fruit2">
+            <h3>Banana</h3>
            
             <br>
-            <a href="payment.html"><button>Pay</button></a> 
+            <a href="products.html"><button>+ | -</button></a> 
 
         </div>
 
         <div class="add1">
             <img src="images/avocado.png" alt="" srcset="" class="fruit3">
-            <h3>Bananas</h3>
+            <h3>Avocado</h3>
              
               <br>
-              <a href="payment.html"><button>Pay</button></a>          
+              <a href="/products.html"><button>+  |  -</button></a>          
 
         </div>
 
@@ -42,16 +68,16 @@
     <div class="items">
     <h3>Ordered Products</h3>
     <p>5 Bananas        ksh.50</p>
-    <p>3 pears          ksh.50</p>
-    <p>4 Avocadoes      ksh.50</p>
+    <p>3 oranges         ksh.50</p>
+    <p>4 Avocado      ksh.50</p>
     <br>
     <p>Total            ksh.150</p>
 
     </div>
 
     <div class="submit">
-        <a href="payment.html"><button style="padding:1.5%; background-color: #1b3d1b;;
-        text-decoration: solid;color: white;margin-top: 3%;margin-left: 40%;border-radius: 5%;">SUBMIT AND PAY</button></a>
+        <a href="login.html"><button style="padding:1.5%; background-color: #7ba17b;;
+        text-decoration: solid;color: black;margin-top: 3%;margin-left: 40%;border-radius: 5%;">SUBMIT AND PAY</button></a>
     </div>
 
 </body>

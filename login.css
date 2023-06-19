@@ -1,66 +1,91 @@
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #AECEA5;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: #5CB85C;
+}
+.form-group {
+  margin-bottom: 20px;
+  text-align: none;
+  text-decoration-line: none;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding:4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #5CB85C;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #4CAE4C;
+}
+.done{
+  text-align: center;
+}
+.error {
+  color: #B30000;
+  margin-top: 5px;
+  } 
 
-  
-  body {
+/* body {
     font-family: Arial, sans-serif;
-    background-color: #aecea5;
+    background-color: #AECEA5;
   }
-  
   .container {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #FFFFFF;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  
-  h1 {
+  .container h2 {
     text-align: center;
-    color: #5cb85c;
+    margin-bottom: 20px;
   }
-  
   .form-group {
     margin-bottom: 20px;
-    text-align: none;
-    text-decoration-line: none;
   }
-  
-  label {
+  .form-group label {
     display: block;
     margin-bottom: 5px;
-    color: #666;
   }
-  
-  input[type="text"],
-  input[type="password"] {
+  .form-group input {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 4px;
   }
-  button
-  
-  .btn {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #5cb85c;
-    border: none;
+  .form-group input[type="submit"] {
+    background-color: #4CAF50;
     color: #fff;
-    font-size: 16px;
-    text-align: center;
     cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .btn:hover {
-    background-color: #4cae4c;
-  }
-  .done{
-    text-align: center;
-  }
-  
-  .error {
-    color: #b30000;
-    margin-top: 5px;
-  }
+  } */ 

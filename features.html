@@ -11,24 +11,31 @@
     <title>Features</title>
 </head>
 <body>
-  <div class="navbar">
-    <img src="/images/grocery project logo2 (2).png" alt="" class="logo">
-    <a href="index.html">Home</a>
-    <a href="features.html">Features</a>
-    <a href="cartegories.html">Categories</a>
-    <a href="products.html">Products</a>
-    <a href="reviews.html">Reviews</a>
-    <!-- <div class="dropdown-toggle" onclick="toggleDropdown()">
-        <span class="menu-text">Menu</span>
-        <span class="menu-icon"><i class='bx bx-menu'></i></span>
-        <span class="close-icon"><i class='bx bx-x'></i></span>
-    </div> -->
-    <div class="dropdown-content">
-        <!-- <a href="cartegories.html">Search</a>
-        <a href="cart.html">Cart</a> -->
-    </div>
-    <!-- <a href=""><button>LOGIN</button></a> -->
-    <!-- <a href=""><button>SIGNUP</button></a> -->
+  <header>
+    <div id="brand"><a href="/">M.Mboga</a></div>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/features.html">Features</a></li>
+            <li><a href="/cartegories.html">Categories</a></li>
+            <li><a href="products.html">Products</a></li>
+            
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/features.html">Features</a></li>
+            <li><a href="/cartegories.html">Categories</a></li>
+            <li><a href="products.html">Products</a></li>
+           
+          </ul>
+        </div>
+      </header>
+      <script src="/index.js"></script>
 </div>
     <section class="services">
         <h2 class="heading">
@@ -79,5 +86,5 @@
              <p>Blog</p>
     </div>
 </div>
-</div>
+
 </html>
